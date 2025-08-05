@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { ChevronDown, ChevronUp, Phone, Mail, MapPin, FileText, Shield, MessageCircle, Upload, Check, X, ExternalLink, User, Building2, Calendar, Award, Star, Send, Download, Eye, Clock, Globe, Users, Target, Lightbulb } from 'lucide-react';
 
 function App() {
@@ -1055,6 +1056,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+      <meta name="facebook-domain-verification" content="l8kwnb9ygt8bgdwltvwdpado6jzvei" />
+      </Helmet>
       {/* Success Alert */}
       {showSuccess && (
         <div className="fixed top-4 right-4 bg-green-500 text-white p-4 rounded-lg shadow-lg z-50 flex items-center space-x-2">
