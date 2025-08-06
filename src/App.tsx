@@ -32,21 +32,21 @@ function App() {
   ];
 
   const companyData = {
-    cnpj: '24.336.725/0001-53',
-    razaoSocial: 'FABIO NORONHA PROFISSIONAL EM GERAL LTDA',
-    nomeFantasia: 'Meu Mundo Provedore',
-    inscricaoEstadual: '123.456.789.012',
-    inscricaoMunicipal: '987654321',
+    cnpj: '51.991.144/0001-35',
+    razaoSocial: 'OLIVIA FARIA  PROVEDORES DE CONTEUDO LTDA',
+    nomeFantasia: 'OLIVIA FARIA  PROVEDORES DE CONTEUDO LTDA',
+    inscricaoEstadual: '123.453.783.012',
+    inscricaoMunicipal: '987654322',
     endereco: {
-      rua: 'Av. Paulista, 1000',
-      bairro: 'Bela Vista',
-      cidade: 'São Paulo',
-      uf: 'SP',
-      cep: '01310-100'
+      rua: 'Rua Major José de Barros, 167',
+      bairro: 'Centro',
+      cidade: 'João Pessoa',
+      uf: 'PB',
+      cep: '58013-410'
     },
-    telefone: '(11) 3456-7890',
-    email: 'contatomeumundo.com.br',
-    fundacao: '04/03/2016'
+    telefone: '(11) 3426-7890',
+    email: 'contato@olivia.com.br',
+    fundacao: '29/08/2023'
   };
 
   const services = [
