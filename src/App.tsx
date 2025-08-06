@@ -33,8 +33,8 @@ function App() {
 
   const companyData = {
     cnpj: '24.336.725/0001-53',
-    razaoSocial: 'Meu Mundo Provedores',
-    nomeFantasia: 'Meu Mundo Provedores',
+    razaoSocial: 'FABIO NORONHA PROFISSIONAL EM GERAL LTDA',
+    nomeFantasia: 'Meu Mundo Provedore',
     inscricaoEstadual: '123.456.789.012',
     inscricaoMunicipal: '987654321',
     endereco: {
